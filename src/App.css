@@ -1,0 +1,33 @@
+.quote-container {
+  margin: 3rem 30rem;
+  padding: 1.5rem;
+  border-radius: 4px;
+  background-color: white;
+  min-height: fit-content;
+  background-color: rgb(253, 244, 167);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.generate-btn {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  background: blue;
+  color: yellow;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.generate-btn:hover {
+  background: rgb(10, 10, 135);
+  color: white;
+}
+
+@media screen and (min-width: 400px) {
+  .quote-container {
+    margin: 3rem 3rem;
+  }
+}
